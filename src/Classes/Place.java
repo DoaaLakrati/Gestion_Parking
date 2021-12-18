@@ -25,7 +25,8 @@ public abstract class Place {
          * @return L'heure d'arrivée du véhicule.
          */
         public Time getDebutStationnement(){
-            return debutStationnement;
+
+                return debutStationnement;
         }
 
         /**
@@ -34,7 +35,8 @@ public abstract class Place {
          * @return Le numéro de la place de parking.
          */
         public int getNum() {
-            return this.numeroPlace;
+
+                return this.numeroPlace;
         }
 
         /**

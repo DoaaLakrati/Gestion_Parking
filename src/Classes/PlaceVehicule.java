@@ -38,6 +38,7 @@ public class PlaceVehicule extends Place{
      * @return Le véhicule associé à la place.
      */
     public Vehicule getVehicule() {
+
         return vehicule;
     }
 
@@ -47,6 +48,7 @@ public class PlaceVehicule extends Place{
      * @return "true" si aucun véhicule ne se trouve sur la place.
      */
     public boolean estLibre() {
+
         return vehicule == null;
     }
 
@@ -56,6 +58,7 @@ public class PlaceVehicule extends Place{
      * @return la valeur du booléen "reservation" (true ou fasle).
      */
     public boolean estReservee() {
+
         return reservation == true;
     }
 
@@ -66,6 +69,7 @@ public class PlaceVehicule extends Place{
      *            L'état de réservation (true ou false).
      */
     public void setReservation(boolean reservation) {
+
         this.reservation = reservation;
     }
 

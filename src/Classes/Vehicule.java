@@ -32,9 +32,11 @@ package Classes;
          * @return Le numéro d'immatriculation du véhicule.
          */
         public String getNum_immat() {
+
             return this.num_immat;
         }
         public void setNum_immat(String num_immat) {
+
             this.num_immat = num_immat;
         }
 
@@ -44,24 +46,30 @@ package Classes;
          * @return Le propriétaire du véhicule.
          */
         public String getProprietaire() {
+
             return this.proprietaire;
         }
         public void setProprietaire(String proprietaire) {
+
             this.proprietaire = proprietaire;
         }
 
         public String getModele() {
+
             return modele;
         }
 
         public void setModele(String modele) {
+
             this.modele = modele;
         }
         public String getMarque() {
+
             return marque;
         }
 
         public void setMarque(String marque) {
+
             this.marque = marque;
         }
        /* @return Le type de véhicule.

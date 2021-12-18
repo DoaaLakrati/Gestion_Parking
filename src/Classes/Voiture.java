@@ -30,6 +30,7 @@ public class Voiture extends Vehicule{
      * @return Le type de véhicule (ici "voiture").
      */
     public String getType() {
+
         return type;
     }
 

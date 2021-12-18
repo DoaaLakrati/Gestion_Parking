@@ -21,7 +21,7 @@ public class Facture {
          * @param numeroPlaceRelative
          *            Le numéro de la place que la véhicule occupait ("numeroPlace" de la classe Place).
          *
-         * @param PrixMin
+         * @param prixMin
          *            Le prix à la minute.
          *
          * @param debutStationnement
@@ -33,7 +33,7 @@ public class Facture {
          * @param proprietaire
          *            Le propriétaire du véhicule.
          */
-        public Facture(int numeroPlaceRelative, int PrixMin , long debutStationnement, String typeVehicule, String proprietaire){
+        public Facture(int numeroPlaceRelative, int prixMin , long debutStationnement, String typeVehicule, String proprietaire){
             try {
                 int finished = 0;
                 String StringValue ="";
@@ -86,7 +86,7 @@ public class Facture {
             }
             else
             {
-                this.valeurFacture = Math.rint((PrixMin * (new Time(System.currentTimeMillis()).getMinutes()-new Time(debutStationnement).getMinutes())+ (coefVehicule * (new Time(System.currentTimeMillis()).getMinutes()-new Time(debutStationnement).getMinutes()) * 19.6/100)));
+                this.valeurFacture = Math.rint((prixMin * (new Time(System.currentTimeMillis()).getMinutes()-new Time(debutStationnement).getMinutes())+ (prixMin * (new Time(System.currentTimeMillis()).getMinutes()-new Time(debutStationnement).getMinutes()) * 19.6/100)));
             }
             this.tempsEcoule = new Time(System.currentTimeMillis()).getMinutes()-new Time(debutStationnement).getMinutes();
         }

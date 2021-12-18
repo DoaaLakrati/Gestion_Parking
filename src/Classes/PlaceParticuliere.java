@@ -32,6 +32,7 @@ public class PlaceParticuliere extends Place{
          * @return Le type de la place de parking.
          */
         public String getType() {
+
             return type;
         }
 
@@ -41,6 +42,7 @@ public class PlaceParticuliere extends Place{
          * @return Le véhicule associé à la place.
          */
         public Vehicule getVehicule() {
+
             return vehicule;
         }
 
@@ -59,6 +61,7 @@ public class PlaceParticuliere extends Place{
          * @return la valeur du booléen "reserve" (true ou fasle).
          */
         public boolean estReservee() {
+
             return reservation == true;
         }
 
@@ -69,6 +72,7 @@ public class PlaceParticuliere extends Place{
          *            L'état de réservation (true ou false).
          */
         public void setReservation(boolean reservation) {
+
             this.reservation = reservation;
         }
 

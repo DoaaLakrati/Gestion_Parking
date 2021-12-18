@@ -14,17 +14,18 @@ public class Test {
     private static Vehicule v4 = new Camion("Powlo", "FAT-13", "Mercedes", "Truck");
 
     public static void afficherEtat() {
+
         p.etatParking();
     }
 
-    public static void testParkVehicules() throws {
-        try {
+    public static void testParkVehicules(){
+       try {
             p.park(v, 6);
             p.park(v1, 7);
             p.park(v2, 10);
             p.park(v3, 1);
             p.park(v4, 0);
-        } catch (VehiculeExistException | NumeroPlaceException e) {
+        } catch (PlaceOccupeException |VehiculeExistException |NumeroPlaceException e) {
 
         }
     }
