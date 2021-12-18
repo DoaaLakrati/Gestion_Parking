@@ -1,7 +1,7 @@
 # Gestion_parking
 mini projet en JAVA (using Git)
 réalisé par :- Douaa Lakrati 
-             -Issam Bouhtouri
+             -Issame Bouhtouri
 Outil(JAVA)
 Ce projet consiste à creer un parking et le gérer, en ce qui concerne les places(libre ou bien occupée) pour informer l'utilisateur ,
 et lui donner la permission pour entrer si la place est libre . 
